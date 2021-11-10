@@ -16,6 +16,7 @@ console.log(arr[arr.length -4])
 // do-while - 한번의 실행을 보증하고 싶을때
 // null = 껍데기만 있는 리모컨
 
+// nullpointerexcption은 . 과 [] 에서만 발생한다.
 
 
 let i = 0
