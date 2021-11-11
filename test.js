@@ -1,12 +1,11 @@
+const readline = require('readline-sync')
 
-const readline1 = require('readline-sync')
-const readline2 = require('readline-sync')
 
 console.log("r1")
-const r1 = readline1.prompt()
+const r1 = readline.prompt()
 
 console.log("r2")
-const r2 = readline2.prompt()
+const r2 = readline.prompt()
 
 const r1ar = (Math.pow(r1,2)) * Math.PI
 const r2ar = (Math.pow(r2,2)) * Math.PI

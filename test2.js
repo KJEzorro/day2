@@ -1,10 +1,10 @@
 
 // 1ft당 3.5$
 // 300 * 200
-const perFeet = 3.5
+const perFeet = 3.5   // 피트당 3.5$
 
-const width = 300
-const height = 200
+const width = 300     // 가로 300mm
+const height = 200    // 세로 200mm
 
 // 창문 = 가로 * 2, 세로 * 2 => 전체 샷시 길이
 const totalLength = (width * 2) + (height * 2)
