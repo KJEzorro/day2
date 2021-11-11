@@ -21,7 +21,8 @@ console.log(changedLength)
 console.log(arr)
 
 // 인덱스 위치에 있는 항목 제거하기 = splice(시작위치, 지울 갯수)
-arr.splice(1, 1)
+const arrSplice = arr.splice(1, 1)
+console.log(`스플라이스: ${arrSplice}`)
 console.log(arr)
 
 
